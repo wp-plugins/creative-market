@@ -16,7 +16,7 @@
 
 		$widget_ops = array( 'classname' => $this->widget_cssclass, 'description' => $this->widget_description );
 
-		$this->WP_Widget('creativemarket_widget', $this->widget_name, $widget_ops);
+		parent::__construct('creativemarket_widget', $this->widget_name, $widget_ops);
 
 		add_action( 'save_post', array(&$this, 'flush_widget_cache') );
 		add_action( 'deleted_post', array(&$this, 'flush_widget_cache') );
