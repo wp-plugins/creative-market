@@ -3,7 +3,7 @@
 Plugin Name: Creative Market
 Plugin URI: http://github.com/chrismccoy
 Description: A widget to show off a creative market item
-Version: 1.0
+Version: 1.1
 Author: Chris McCoy
 Author URI: http://github.com/chrismccoy
 License: GPL2
